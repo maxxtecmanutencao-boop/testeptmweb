@@ -16,7 +16,7 @@ from io import BytesIO
 # CONFIGURAÇÃO DO GITHUB
 # ============================================================================
 # 🔧 CONFIGURE AQUI A URL RAW DO SEU ARQUIVO NO GITHUB
-GITHUB_RAW_URL = "https://github.com/maxxtecmanutencao-boop/testeptmweb/blob/main/BD.xlsm"
+GITHUB_RAW_URL = "https://github.com/maxxtecmanutencao-boop/testeptmweb/raw/refs/heads/main/BD.xlsm"
 # Para repositório privado, adicione seu token aqui:
 GITHUB_TOKEN = None  # Ex: "ghp_seu_token_aqui" ou None para público
 
@@ -1290,4 +1290,5 @@ if __name__ == '__main__':
 	except Exception:
 
 		main()
+
 
